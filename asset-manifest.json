@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/joelschwartz/reactfolder.git/static/css/main.8ed6ba94.chunk.css",
+    "main.js": "/joelschwartz/reactfolder.git/static/js/main.025d9393.chunk.js",
+    "main.js.map": "/joelschwartz/reactfolder.git/static/js/main.025d9393.chunk.js.map",
+    "runtime-main.js": "/joelschwartz/reactfolder.git/static/js/runtime-main.a3b4f59a.js",
+    "runtime-main.js.map": "/joelschwartz/reactfolder.git/static/js/runtime-main.a3b4f59a.js.map",
+    "static/js/2.59b40566.chunk.js": "/joelschwartz/reactfolder.git/static/js/2.59b40566.chunk.js",
+    "static/js/2.59b40566.chunk.js.map": "/joelschwartz/reactfolder.git/static/js/2.59b40566.chunk.js.map",
+    "index.html": "/joelschwartz/reactfolder.git/index.html",
+    "precache-manifest.2dc622ad18142802c95d893a71f95845.js": "/joelschwartz/reactfolder.git/precache-manifest.2dc622ad18142802c95d893a71f95845.js",
+    "service-worker.js": "/joelschwartz/reactfolder.git/service-worker.js",
+    "static/css/main.8ed6ba94.chunk.css.map": "/joelschwartz/reactfolder.git/static/css/main.8ed6ba94.chunk.css.map",
+    "static/js/2.59b40566.chunk.js.LICENSE.txt": "/joelschwartz/reactfolder.git/static/js/2.59b40566.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3b4f59a.js",
+    "static/js/2.59b40566.chunk.js",
+    "static/css/main.8ed6ba94.chunk.css",
+    "static/js/main.025d9393.chunk.js"
+  ]
+}
