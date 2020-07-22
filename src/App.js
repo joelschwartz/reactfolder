@@ -154,7 +154,7 @@ render() {
 			<br /><br />
 			<label>Please enter english letters to convert to binary</label><br /><br />
 			<input type="text" id="english" /><br /><br />
-			<button onClick={this.englishform} value="submit">submit</button><br /><br />
+			<button onClick={this.englishform}>submit</button><br /><br />
 			<p>{this.state.binary}</p>
 			</div>
 			
