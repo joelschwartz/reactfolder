@@ -17,11 +17,15 @@ class Binary extends React.Component {
 		super(props);
 		this.state = {
 			english: '',
-			binary: ''
+			binary: '',
+			string: '',
+			number: ''
 		}
 		this.binarytoenglish = this.binarytoenglish.bind(this);
 		this.integertobinary = this.integertobinary.bind(this);
 		this.englishtobinary = this.englishtobinary.bind(this);
+		this.stringinput = this.stringinput.bind(this);
+		this.numberinput = this.numberinput.bind(this);
 		this.submitform = this.submitform.bind(this);
 		this.englishform = this.englishform.bind(this);
 	
@@ -119,9 +123,21 @@ let intarray = [];
   }
   return binary;
 }
+stringinput(event)
+{
+	this.setState({
+		string: event.target.value
+	});
+}
+numberinput(event)
+{
+	this.setState({
+		number: event.target.value
+	});
+}
 submitform()
 {
-let number = document.getElementById('binary').value;
+let number = this.state.number;
 let letters = this.binarytoenglish(number);
 this.setState({
 	english: letters
@@ -130,7 +146,7 @@ this.setState({
 }
 englishform()
 {
-let english = document.getElementById('english').value;
+let english = this.state.string;
 let result = this.englishtobinary(english);
 this.setState({
 	binary: result
@@ -146,14 +162,14 @@ render() {
       <div>
 			<div>
 			<label>Please input a binary string to change into english</label><br />
-			<input type="text" id="binary" /><br /><br />
+			<input type="text" id="binary" onChange={this.numberinput} /><br /><br />
 			<button onClick={this.submitform}>submit</button><br /><br />
 			<p>{this.state.english}</p>
 			</div>
 			<div>
 			<br /><br />
 			<label>Please enter english letters to convert to binary</label><br /><br />
-			<input type="text" id="english" /><br /><br />
+			<input type="text" id="english" onChange={this.stringinput} /><br /><br />
 			<button onClick={this.englishform}>submit</button><br /><br />
 			<p>{this.state.binary}</p>
 			</div>
@@ -164,5 +180,3 @@ render() {
 }
 
 export default Binary;
-
-
