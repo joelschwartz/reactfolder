@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+/* eslint-disable */
 
 class Numeral extends React.Component {
 	
@@ -9,8 +10,8 @@ class Numeral extends React.Component {
 		this.state = {
 			integer: '',
 			numeral: '',
-			output_one: '',
-			output_two: ''
+			output_integer: '',
+			output_numeral: ''
 		}
 		this.integertonumeral = this.integertonumeral.bind(this);
 		this.numeraltointeger = this.numeraltointeger.bind(this);
@@ -25,7 +26,7 @@ class Numeral extends React.Component {
 integertonumeral(integer)
 {
 let total = integer;
-if (total < 1 || total > 3999)
+if (total < 1 || total > 3999 || total % 1 !== 0)
 {
 	return "You did not enter a valid number";
 }
@@ -99,11 +100,14 @@ integerinput(event)
 }
 submitnumeral()
 {
+this.setState({
+	output_integer: ''
+});
 let input = this.state.numeral;
 input = input.toUpperCase();
 let output = this.numeraltointeger(input);
 this.setState({
-	output_one: output
+	output_integer: output
 });
 
 
@@ -111,14 +115,17 @@ this.setState({
 
 submitform()
 {
-var input = this.state.integer;
-var result = this.integertonumeral(input);
-var pattern = /[0-9]/g;
-if (pattern.test(pattern) == false)
+this.setState({output_numeral: ''});
+let input = this.state.integer;
+input = parseFloat(input);
+let result = this.integertonumeral(input);
+let pattern = /[0-9]/g;
+let decimal =  /\./g;
+if (pattern.test(input) == false ||decimal.test(input) == true)
 {
-	this.setState({output_two: "You did not enter a number"});
+	result = "You did not enter a number";
 }
-this.setState({output_two: result});
+this.setState({output_numeral: result});
 }
 
 
@@ -130,15 +137,13 @@ render() {
 		<label>Please input a integer from 1 to 3999 to change into a roman numeral</label><br /><br />
 		<input type="text" onChange={this.integerinput} /><br /><br />
 		<input type="button" onClick={this.submitform} value="submit" /><br /><br />
-		<p>{this.state.output_two}</p><br /><br />
+		<p>{this.state.output_numeral}</p><br /><br />
 		<label>Please input a roman numeral from 1 to 3999 to change into a integer</label><br /><br />
 		<input type="text" onChange={this.romaninput} /><br /><br />
 		<input type="button" onClick={this.submitnumeral} value="submit" /><br /><br />
-		<p>{this.state.output_one}</p> 
+		<p>{this.state.output_integer}</p> 
 	    </div>);
   }
 }
 
 export default Numeral;
-
-
