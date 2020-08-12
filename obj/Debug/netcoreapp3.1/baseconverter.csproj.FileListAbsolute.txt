@@ -1,0 +1,13 @@
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\obj\Debug\netcoreapp3.1\baseconverter.csprojAssemblyReference.cache
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\obj\Debug\netcoreapp3.1\baseconverter.csproj.CoreCompileInputs.cache
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\obj\Debug\netcoreapp3.1\baseconverter.AssemblyInfoInputs.cache
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\obj\Debug\netcoreapp3.1\baseconverter.AssemblyInfo.cs
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\bin\Debug\netcoreapp3.1\baseconverter.exe
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\bin\Debug\netcoreapp3.1\baseconverter.deps.json
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\bin\Debug\netcoreapp3.1\baseconverter.runtimeconfig.json
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\bin\Debug\netcoreapp3.1\baseconverter.runtimeconfig.dev.json
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\bin\Debug\netcoreapp3.1\baseconverter.dll
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\bin\Debug\netcoreapp3.1\baseconverter.pdb
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\obj\Debug\netcoreapp3.1\baseconverter.dll
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\obj\Debug\netcoreapp3.1\baseconverter.pdb
+C:\users\mschw\documents\windowspowershell\dotnet\baseconverter\obj\Debug\netcoreapp3.1\baseconverter.genruntimeconfig.cache

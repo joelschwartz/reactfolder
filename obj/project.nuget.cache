@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "89Ui+sQH8Yhe6kzYZeVD9/1VCeMHgNq4DmVGwZLqfC87p0odrUwHjCaGFPCZfwvdoAg4Csw0U2WRr3CWGqm/pQ==",
+  "success": true,
+  "projectFilePath": "C:\\users\\mschw\\documents\\windowspowershell\\dotnet\\baseconverter\\baseconverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mschw\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.3\\microsoft.netcore.app.runtime.win-x64.3.1.3.nupkg.sha512",
+    "C:\\Users\\mschw\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.3\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.3.nupkg.sha512",
+    "C:\\Users\\mschw\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.3\\microsoft.aspnetcore.app.runtime.win-x64.3.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
