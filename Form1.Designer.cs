@@ -1,4 +1,4 @@
-﻿namespace baseconverter
+namespace baseconverter
 {
     partial class Form1
     {
@@ -47,96 +47,86 @@
 			this.hextointlabel.Size = new System.Drawing.Size(350, 30);
 			this.hextointlabel.Name = "hex to integer label";
 			this.hextointlabel.Text = "Please enter a hex string to convert to a integer";
-			this.hextointlabel.TabIndex = 0;
 			
-			this.hextointeger.Location = new System.Drawing.Point(166, 55);
+			this.hextointeger.Location = new System.Drawing.Point(166, 65);
             this.hextointeger.Name = "hex to integer";
             this.hextointeger.Size = new System.Drawing.Size(483, 20);
-            this.hextointeger.TabIndex = 1;
+            this.hextointeger.TabIndex = 0;
 			
-			this.buttonone.Location = new System.Drawing.Point(166, 95);
+			this.buttonone.Location = new System.Drawing.Point(166, 100);
             this.buttonone.Name = "submit";
-            this.buttonone.Size = new System.Drawing.Size(75, 23);
-            this.buttonone.TabIndex = 2;
+            this.buttonone.Size = new System.Drawing.Size(75, 30);
             this.buttonone.Text = "submit";
             this.buttonone.UseVisualStyleBackColor = true;
             this.buttonone.Click += new System.EventHandler(this.buttonone_Click);
 			
-			this.decimaltohexlabel.Location = new System.Drawing.Point(166, 120);
-			this.decimaltohexlabel.Size = new System.Drawing.Size(350, 30);
+			this.decimaltohexlabel.Location = new System.Drawing.Point(166, 150);
+			this.decimaltohexlabel.Size = new System.Drawing.Size(350, 20);
 			this.decimaltohexlabel.Name = "integer to hex label";
 			this.decimaltohexlabel.Text = "Please enter a integer to convert to a hex string";
-			this.decimaltohexlabel.TabIndex = 3;
 			
-			this.decimaltohex.Location = new System.Drawing.Point(166, 140);
+			this.decimaltohex.Location = new System.Drawing.Point(166, 180);
             this.decimaltohex.Name = "integer to hex";
             this.decimaltohex.Size = new System.Drawing.Size(483, 20);
-            this.decimaltohex.TabIndex = 4;
+            this.decimaltohex.TabIndex = 1;
 			
-			this.buttontwo.Location = new System.Drawing.Point(166, 170);
+			this.buttontwo.Location = new System.Drawing.Point(166, 215);
             this.buttontwo.Name = "submit";
-            this.buttontwo.Size = new System.Drawing.Size(75, 23);
-            this.buttontwo.TabIndex = 5;
+            this.buttontwo.Size = new System.Drawing.Size(75, 30);
             this.buttontwo.Text = "submit";
             this.buttontwo.UseVisualStyleBackColor = true;
             this.buttontwo.Click += new System.EventHandler(this.buttontwo_Click);
 			
-			this.bintohexlabel.Location = new System.Drawing.Point(166, 200);
-			this.bintohexlabel.Size = new System.Drawing.Size(350, 30);
+			this.bintohexlabel.Location = new System.Drawing.Point(166, 260);
+			this.bintohexlabel.Size = new System.Drawing.Size(350, 20);
 			this.bintohexlabel.Name = "binary to hex label";
 			this.bintohexlabel.Text = "Please enter a binary string to convert to a hex string";
-			this.bintohexlabel.TabIndex = 6;
 			
-			this.binarytohex.Location = new System.Drawing.Point(166, 220);
+			this.binarytohex.Location = new System.Drawing.Point(166, 300);
             this.binarytohex.Name = "binary to hex";
             this.binarytohex.Size = new System.Drawing.Size(483, 20);
-            this.binarytohex.TabIndex = 7;
+            this.binarytohex.TabIndex = 2;
 			
-			this.buttonthree.Location = new System.Drawing.Point(166, 250);
+			this.buttonthree.Location = new System.Drawing.Point(166, 325);
             this.buttonthree.Name = "submit";
-            this.buttonthree.Size = new System.Drawing.Size(75, 23);
-            this.buttonthree.TabIndex = 8;
+            this.buttonthree.Size = new System.Drawing.Size(75, 30);
             this.buttonthree.Text = "submit";
             this.buttonthree.UseVisualStyleBackColor = true;
             this.buttonthree.Click += new System.EventHandler(this.buttonthree_Click);
 			
-			this.bintointlabel.Location = new System.Drawing.Point(166, 275);
+			this.bintointlabel.Location = new System.Drawing.Point(166, 375);
 			this.bintointlabel.Size = new System.Drawing.Size(350, 30);
 			this.bintointlabel.Name = "binary to integer label";
 			this.bintointlabel.Text = "Please enter a binary string to convert to a integer";
-			this.bintointlabel.TabIndex = 9;
 			
-			this.binarytoint.Location = new System.Drawing.Point(166, 295);
+			this.binarytoint.Location = new System.Drawing.Point(166, 420);
             this.binarytoint.Name = "binary to hex";
             this.binarytoint.Size = new System.Drawing.Size(483, 20);
-            this.binarytoint.TabIndex = 10;
+            this.binarytoint.TabIndex = 3;
 			
-			this.buttonfour.Location = new System.Drawing.Point(166, 345);
+			this.buttonfour.Location = new System.Drawing.Point(166, 460);
             this.buttonfour.Name = "submit";
-            this.buttonfour.Size = new System.Drawing.Size(75, 23);
-            this.buttonfour.TabIndex = 11;
+            this.buttonfour.Size = new System.Drawing.Size(75, 30);
             this.buttonfour.Text = "submit";
             this.buttonfour.UseVisualStyleBackColor = true;
             this.buttonfour.Click += new System.EventHandler(this.buttonfour_Click);
 			
-			this.clear.Location = new System.Drawing.Point(250, 345);
+			this.clear.Location = new System.Drawing.Point(250, 460);
             this.clear.Name = "clear";
-            this.clear.Size = new System.Drawing.Size(75, 23);
-            this.clear.TabIndex = 12;
+            this.clear.Size = new System.Drawing.Size(75, 30);
             this.clear.Text = "clear";
             this.clear.UseVisualStyleBackColor = true;
             this.clear.Click += new System.EventHandler(this.clear_Click);
 			
 			
-			this.output.Location = new System.Drawing.Point(166, 380);
+			this.output.Location = new System.Drawing.Point(166, 515);
 			this.output.Size = new System.Drawing.Size(350, 30);
 			this.output.Name = "output";
-			this.output.TabIndex = 13;
 			
 			
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 500);
+            this.ClientSize = new System.Drawing.Size(800, 600);
             this.Text = "base converter";
 			this.Controls.Add(this.hextointeger);
 			this.Controls.Add(this.hextointlabel);
@@ -174,4 +164,3 @@
 		
     }
 }
-
